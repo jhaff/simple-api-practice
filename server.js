@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     })
 
 
-//SHOW one (hard-coded) venue
+//SHOW one venue
 app.get('/venues/:index', (req, res) => {
 
         res.json(venues[req.params.index])
